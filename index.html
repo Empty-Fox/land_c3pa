@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">    
+    <title>C3PA</title>
+    <link rel="shortcut icon" href="images/favicon.png" type="image/png" style="width: 50%;">
+    <link href="https://fonts.googleapis.com/css2?family=Lato&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Lato:wght@300&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/style.css">
+   
+</head>
+<body style="overflow: hidden;">
+    <div class="bg1"></div>
+    <div class="bg2"></div>
+
+    <div class="header" style="z-index: 2;">
+        <a href="/" class="header__logo">
+            <img src="images/logo_main.png" height="auto" width="100">
+        </a>  
+    </div>
+    <div class="container" style="position:absolute; z-index: 2;">
+        <section class="content">
+            <h1 class="animate__animated animate__fadeIn animate__delay-20s">
+                <hr class="animate__animated animate__fadeInLeft animate__delay-20s"> 
+                BEHIND CLICK, THERE'S A PERSON. <br>
+                BEHIND CONVERSION, THERE'S A TEAM.    
+             <hr class="animate__animated animate__fadeInLeft animate__delay-20s"> 
+            </h1> 
+            <button style="font-family: Lato, sans-serif;  font-weight: 300;" onclick="document.location='https://c3pa.net/'" class="arrow animate__animated animate__zoomIn animate__delay-20s">
+                VISIT SITE
+            </button>
+           </section>
+         
+    </div>
+    <footer  style="z-index: 2;">
+       <p class="legal__info">         
+            © 2014-<span id="year"></span> C3PA Network
+        </p>
+    </footer>
+   
+
+     
+</body>
+<script>
+    document.getElementById("year").innerHTML = new Date().getFullYear();
+</script>
+</html>
